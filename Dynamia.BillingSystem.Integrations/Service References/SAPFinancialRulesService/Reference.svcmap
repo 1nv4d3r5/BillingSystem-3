@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c9445fe3-21b3-420a-a91a-340c0ddf63da" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://staging.services.publicar.com/Financial/SAP/1.0/BasicHttp/SI_ReglasSAPFI_Out" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SI_ReglasSAPFI_Out.wsdl" MetadataType="Wsdl" ID="b0635126-c0eb-4c00-a962-cbb50dc16bcd" SourceId="1" SourceUrl="http://pubevlmia440.carvajal.com.co/Financial/SAP/1.0/BasicHttp/SI_ReglasSAPFI_Out?wsdl" />
+    <MetadataFile FileName="SI_ReglasSAPFI_Out.disco" MetadataType="Disco" ID="d559cbac-65ac-4a23-8c17-9a307bb36b4d" SourceId="1" SourceUrl="http://pubevlmia440.carvajal.com.co/Financial/SAP/1.0/BasicHttp/SI_ReglasSAPFI_Out?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamia.BillingSystem.BusinessManager", "Dynamia.BillingSystem.BusinessManager\Dynamia.BillingSystem.BusinessManager.csproj", "{EDA87898-3215-4DF3-B1E7-937F48099360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamia.BillingSystem.Integrations", "Dynamia.BillingSystem.Integrations\Dynamia.BillingSystem.Integrations.csproj", "{01FFF829-A2C8-4B9A-9F79-69A5B8404D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamia.BillingSystem.Controller", "Dynamia.BillingSystem.Controller\Dynamia.BillingSystem.Controller.csproj", "{57AD4D2F-F191-4BF9-A538-B969F539C858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamia.BillingSystem.SQLDAO", "Dynamia.BillingSystem.SQLDAO\Dynamia.BillingSystem.SQLDAO.csproj", "{3BDD0DEA-B0E3-4206-8CDF-35C77DDCDB66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamia.BillingSystem.TestProject", "Dynamia.BillingSystem.TestProject\Dynamia.BillingSystem.TestProject.csproj", "{F4A27A7E-8832-40CC-BF58-E676D912171D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamia.BillingSystem.WebProject", "Dynamia.BillingSystem.WebProject\Dynamia.BillingSystem.WebProject.csproj", "{3274D26C-98E5-47AE-9300-08C310FF56A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDA87898-3215-4DF3-B1E7-937F48099360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA87898-3215-4DF3-B1E7-937F48099360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA87898-3215-4DF3-B1E7-937F48099360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA87898-3215-4DF3-B1E7-937F48099360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01FFF829-A2C8-4B9A-9F79-69A5B8404D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01FFF829-A2C8-4B9A-9F79-69A5B8404D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01FFF829-A2C8-4B9A-9F79-69A5B8404D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01FFF829-A2C8-4B9A-9F79-69A5B8404D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57AD4D2F-F191-4BF9-A538-B969F539C858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AD4D2F-F191-4BF9-A538-B969F539C858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AD4D2F-F191-4BF9-A538-B969F539C858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AD4D2F-F191-4BF9-A538-B969F539C858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDD0DEA-B0E3-4206-8CDF-35C77DDCDB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDD0DEA-B0E3-4206-8CDF-35C77DDCDB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDD0DEA-B0E3-4206-8CDF-35C77DDCDB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDD0DEA-B0E3-4206-8CDF-35C77DDCDB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A27A7E-8832-40CC-BF58-E676D912171D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A27A7E-8832-40CC-BF58-E676D912171D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A27A7E-8832-40CC-BF58-E676D912171D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A27A7E-8832-40CC-BF58-E676D912171D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3274D26C-98E5-47AE-9300-08C310FF56A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3274D26C-98E5-47AE-9300-08C310FF56A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3274D26C-98E5-47AE-9300-08C310FF56A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3274D26C-98E5-47AE-9300-08C310FF56A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
