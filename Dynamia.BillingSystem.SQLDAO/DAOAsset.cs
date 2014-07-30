@@ -27,7 +27,7 @@ namespace Dynamia.BillingSystem.SQLDAO
 
             try
             {
-                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaConnection"].ConnectionString);
+                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["localTestConnection"].ConnectionString);
 
                 using (cmd = new SqlCommand("spr_GetSAPBillingQuotesInformation", connect))
                 {
@@ -95,7 +95,7 @@ namespace Dynamia.BillingSystem.SQLDAO
                         
                     }
 
-                    if (flag == 0 || actualAsset.quoteList.Count == 1)
+                    if (flag == 0)
                     {
                         assetsList.Add(actualAsset);
                     }
@@ -122,7 +122,7 @@ namespace Dynamia.BillingSystem.SQLDAO
 
             try
             {
-                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaConnection"].ConnectionString);
+                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["localTestConnection"].ConnectionString);
 
                 using (cmd = new SqlCommand("spr_GetSAPBillingQuotesAnnulationInfo", connect))
                 {
@@ -215,7 +215,7 @@ namespace Dynamia.BillingSystem.SQLDAO
 
             try
             {
-                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaConnection"].ConnectionString);
+                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["localTestConnection"].ConnectionString);
                 using (cmd = new SqlCommand("spr_UpdateAssetBillingData", connect))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;

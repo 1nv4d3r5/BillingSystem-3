@@ -23,7 +23,7 @@ namespace Dynamia.BillingSystem.SQLDAO
           
             try
             {
-                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaConnection"].ConnectionString);
+                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["localTestConnection"].ConnectionString);
                 using (cmd = new SqlCommand("spr_updateBillingLog", connect))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
@@ -111,7 +111,7 @@ namespace Dynamia.BillingSystem.SQLDAO
         {
             try
             {
-                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaConnection"].ConnectionString);
+                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["localTestConnection"].ConnectionString);
                 using (cmd = new SqlCommand("spr_InsertErrorLog", connect))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;

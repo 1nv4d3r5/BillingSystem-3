@@ -24,7 +24,7 @@ namespace Dynamia.BillingSystem.SQLDAO
             List<BOBilling> BillingdataList = new List<BOBilling>();
             try
             {
-                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaConnection"].ConnectionString);
+                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["localTestConnection"].ConnectionString);
 
                 using (cmd = new SqlCommand("spr_GetSAPIdBillingDataInformation", connect))
                 {
@@ -88,7 +88,7 @@ namespace Dynamia.BillingSystem.SQLDAO
             List<BOBilling> BillingdataList = new List<BOBilling>();
             try
             {
-                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaConnection"].ConnectionString);
+                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["localTestConnection"].ConnectionString);
 
                 using (cmd = new SqlCommand("spr_GetSAPIdBillingDataAnnulationInfo", connect))
                 {
@@ -170,7 +170,7 @@ namespace Dynamia.BillingSystem.SQLDAO
 
             try
             {
-                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaConnection"].ConnectionString);
+                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaTestConnection"].ConnectionString);
                 if (billingCheck == 1)
                 {
                    using (cmd = new SqlCommand("spr_UpdateBillingData", connect))
@@ -226,7 +226,7 @@ namespace Dynamia.BillingSystem.SQLDAO
             
             try
             {
-                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaConnection"].ConnectionString);
+                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaTestConnection"].ConnectionString);
 
                 using (cmd = new SqlCommand("spr_AnnulateBillingData", connect))
                     {
@@ -256,7 +256,7 @@ namespace Dynamia.BillingSystem.SQLDAO
         {
             try
             {
-                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaConnection"].ConnectionString);
+                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaTestConnection"].ConnectionString);
 
                 {
                     using (cmd = new SqlCommand("spr_TruncateTables", connect))

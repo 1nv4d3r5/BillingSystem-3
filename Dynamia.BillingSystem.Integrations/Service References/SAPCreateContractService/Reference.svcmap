@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bdbb60a8-dd90-4792-b31e-96fafd009491" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ec479c56-dd84-476f-9ba5-714528babb7c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,11 +19,10 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="https://staging.services.publicar.com/Financial/SAP/1.0/BasicHttp/SI_ContratoCRMEXT_Out" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://pubevlmia440.carvajal.com.co/Financial/SAP/1.0/BasicHttp/SI_ContratoCRMEXT_Out?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="SI_ContratoCRMEXT_Out.wsdl" MetadataType="Wsdl" ID="52bcac95-b776-424b-b7d2-55ecf482764e" SourceId="1" SourceUrl="http://pubevlmia440.carvajal.com.co/Financial/SAP/1.0/BasicHttp/SI_ContratoCRMEXT_Out?wsdl" />
-    <MetadataFile FileName="SI_ContratoCRMEXT_Out.disco" MetadataType="Disco" ID="2da3748a-a978-4b51-a82a-7cde2ef0239b" SourceId="1" SourceUrl="http://pubevlmia440.carvajal.com.co/Financial/SAP/1.0/BasicHttp/SI_ContratoCRMEXT_Out?disco" />
+    <MetadataFile FileName="SI_ContratoCRMEXT_Out.wsdl" MetadataType="Wsdl" ID="de16c07c-3651-4941-a79c-9cd3d53a0d2a" SourceId="1" SourceUrl="http://pubevlmia440.carvajal.com.co/Financial/SAP/1.0/BasicHttp/SI_ContratoCRMEXT_Out?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

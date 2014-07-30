@@ -24,7 +24,7 @@ namespace Dynamia.BillingSystem.SQLDAO
             //DateTime annulationDate = quote.annulationDate;
             try
             {
-                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["SFDynamiaConnection"].ConnectionString);
+                connect = new SqlConnection(ConfigurationManager.ConnectionStrings["localTestConnection"].ConnectionString);
                 using (cmd = new SqlCommand("spr_UpdateBillingQuoteStatus", connect))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;

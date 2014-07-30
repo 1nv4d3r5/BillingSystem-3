@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="alM/EPZLlBlzfDN9Oe/+cGISNoE=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="KIfpPQ0O5mq24H/BczptHEFdVp0=">
   <bindingConfigurations>
-    <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_svc_Financial_SAP_1.0_BasicHttp_SI_ContratoCRMEXT_Out1">
+    <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_svc_Financial_SAP_1.0_BasicHttp_SI_ContratoCRMEXT_Out">
       <properties>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>BasicHttpBinding_svc_Financial_SAP_1.0_BasicHttp_SI_ContratoCRMEXT_Out1</serializedValue>
+          <serializedValue>BasicHttpBinding_svc_Financial_SAP_1.0_BasicHttp_SI_ContratoCRMEXT_Out</serializedValue>
         </property>
         <property path="/closeTimeout" isComplexType="false" isExplicitlyDefined="true" clrType="System.TimeSpan, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -112,7 +112,7 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_svc_Financial_SAP_1.0_BasicHttp_SI_ContratoCRMEXT_Out1" contract="SAPCreateContractService.svc_Financial_SAP_10_BasicHttp_SI_ContratoCRMEXT_Out" bindingType="basicHttpBinding" address="http://pubevlmia440.carvajal.com.co/Financial/SAP/1.0/BasicHttp/SI_ContratoCRMEXT_Out" bindingConfiguration="BasicHttpBinding_svc_Financial_SAP_1.0_BasicHttp_SI_ContratoCRMEXT_Out1">
+    <endpoint name="BasicHttpBinding_svc_Financial_SAP_1.0_BasicHttp_SI_ContratoCRMEXT_Out" contract="SAPCreateContractService.svc_Financial_SAP_10_BasicHttp_SI_ContratoCRMEXT_Out" bindingType="basicHttpBinding" address="http://pubevlmia440.carvajal.com.co/Financial/SAP/1.0/BasicHttp/SI_ContratoCRMEXT_Out" bindingConfiguration="BasicHttpBinding_svc_Financial_SAP_1.0_BasicHttp_SI_ContratoCRMEXT_Out">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>http://pubevlmia440.carvajal.com.co/Financial/SAP/1.0/BasicHttp/SI_ContratoCRMEXT_Out</serializedValue>
@@ -124,7 +124,7 @@
           <serializedValue>basicHttpBinding</serializedValue>
         </property>
         <property path="/bindingConfiguration" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>BasicHttpBinding_svc_Financial_SAP_1.0_BasicHttp_SI_ContratoCRMEXT_Out1</serializedValue>
+          <serializedValue>BasicHttpBinding_svc_Financial_SAP_1.0_BasicHttp_SI_ContratoCRMEXT_Out</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>SAPCreateContractService.svc_Financial_SAP_10_BasicHttp_SI_ContratoCRMEXT_Out</serializedValue>
@@ -187,7 +187,7 @@
           <serializedValue>False</serializedValue>
         </property>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>BasicHttpBinding_svc_Financial_SAP_1.0_BasicHttp_SI_ContratoCRMEXT_Out1</serializedValue>
+          <serializedValue>BasicHttpBinding_svc_Financial_SAP_1.0_BasicHttp_SI_ContratoCRMEXT_Out</serializedValue>
         </property>
         <property path="/kind" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

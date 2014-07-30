@@ -104,9 +104,7 @@
     <None Include="Service References\SAPFinancialRulesService\SI_ReglasSAPFI_Out.wsdl" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dynamia.BillingSystem.BusinessManager\Dynamia.BillingSystem.BusinessManager.csproj">

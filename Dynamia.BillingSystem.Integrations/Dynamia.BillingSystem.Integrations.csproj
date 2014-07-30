@@ -32,10 +32,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
-    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,11 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
     <Compile Include="SAPCreateContractWS.cs" />
     <Compile Include="SAPException.cs" />
     <Compile Include="SAPFinancialRulesWS.cs" />
@@ -69,10 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
     <None Include="Service References\SAPCreateContractService\Dynamia.BillingSystem.Integrations.SAPCreateContractService.OP_CrearContratoCRMEXT_OutResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -95,17 +84,8 @@
     <None Include="Service References\SAPFinancialRulesService\SI_ReglasSAPFI_Out.wsdl" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Dynamia.BillingSystem.BusinessManager\Dynamia.BillingSystem.BusinessManager.csproj">
-      <Project>{eda87898-3215-4df3-b1e7-937f48099360}</Project>
-      <Name>Dynamia.BillingSystem.BusinessManager</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <WCFMetadataStorage Include="Service References\SAPCreateContractService\" />
     <WCFMetadataStorage Include="Service References\SAPFinancialRulesService\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SAPFinancialRulesService\SI_ReglasSAPFI_Out.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\SAPFinancialRulesService\configuration91.svcinfo" />
@@ -120,12 +100,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <WebReferences Include="Web References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\SAPCreateContractService\SI_ContratoCRMEXT_Out.disco" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Service References\SAPCreateContractService\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +110,12 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dynamia.BillingSystem.BusinessManager\Dynamia.BillingSystem.BusinessManager.csproj">
+      <Project>{eda87898-3215-4df3-b1e7-937f48099360}</Project>
+      <Name>Dynamia.BillingSystem.BusinessManager</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
